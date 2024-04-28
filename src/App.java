@@ -1,5 +1,9 @@
+import edu.wells.operadores.Operadores;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Operadores operadores = new Operadores();
+        operadores.operadoresAritmeticos();
+        operadores.ternario();
     }
 }
